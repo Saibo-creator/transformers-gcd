@@ -96,6 +96,12 @@ if __name__ == "__main__":
 
 ```
 
+## Grammar Collection
+
+We provide a collection of grammars in the `examples/grammars` folder, which are mostly identical to the grammars in llama-cpp project.
+We try to keep the grammars up-to-date with the original grammars from llama-cpp project.
+But up to now, we can not yet guarantee that all grammars from llama-cpp project can be directly used in transformers-CFG.
+
 
 ## Why should I use transformers-CFG?
 
