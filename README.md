@@ -14,15 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://huggingface.co/datasets/huggingface/documentation-images/raw/main/transformers-logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://huggingface.co/datasets/huggingface/documentation-images/raw/main/transformers-logo-light.svg">
-    <img alt="Hugging Face Transformers Library" src="https://huggingface.co/datasets/huggingface/documentation-images/raw/main/transformers-logo-light.svg" width="352" height="59" style="max-width: 100%;">
-  </picture>
-  <br/>
-  <br/>
-</p>
+# 🤗 Transformers-CFG
 
 <p align="center">
     <a href="https://circleci.com/gh/huggingface/transformers">
