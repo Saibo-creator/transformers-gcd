@@ -102,6 +102,12 @@ We provide a collection of grammars in the `examples/grammars` folder, which are
 We try to keep the grammars up-to-date with the original grammars from llama-cpp project.
 But up to now, we can not yet guarantee that all grammars from llama-cpp project can be directly used in transformers-CFG.
 
+The list of grammars contains:
+- `json.gbnf`: A grammar for generating valid json objects.
+- `c.gbnf`: A grammar for generating valid C programs.
+- `chess.gbnf`: A grammar for generating valid chess moves.
+- `arithmetic.gbnf`: A grammar for generating valid arithmetic expressions.
+
 
 ## Why should I use transformers-CFG?
 
