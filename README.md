@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# 🤗 Transformers-GCD
+# 🤗 Transformers-CFG
 
 <p align="center">
     <a href="https://circleci.com/gh/huggingface/transformers">
@@ -35,14 +35,14 @@ limitations under the License.
     <a href="https://zenodo.org/badge/latestdoi/155220641"><img src="https://zenodo.org/badge/155220641.svg" alt="DOI"></a>
 </p>
 
-Transformers-GCD is a fork of the Hugging Face Transformers library adding support for **Context-Free Grammar based Constrained Generation** methods.
+Transformers-CFG is a fork of the Hugging Face Transformers library adding support for **Context-Free Grammar based Constrained Generation** methods.
 The library is trying to keep up-to-date with the main branch of the 🤗 Transformers library.
 The library tries to offer a compatible interface to llama-cpp project.
 
 ## Installation
 
 ```bash
-pip install git+https://github.com/epfl-dlab/transformers-GCD
+pip install git+https://github.com/epfl-dlab/transformers-CFG
 ```
 
 
@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
 We provide a collection of grammars in the `examples/grammars` folder, which are mostly identical to the grammars in llama-cpp project.
 We try to keep the grammars up-to-date with the original grammars from llama-cpp project.
-But up to now, we can not yet guarantee that all grammars from llama-cpp project can be directly used in transformers-GCD.
+But up to now, we can not yet guarantee that all grammars from llama-cpp project can be directly used in transformers-CFG.
 
 The list of grammars contains:
 - `json.gbnf`: A grammar for generating valid json objects.
